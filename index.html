@@ -1,81 +1,407 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Elegance Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ATELIER | Everyday Essentials</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Elegance Store</h1>
-        <p>Discover Your Perfect Style</p>
+<div class="dashboard-container">
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="#" class="logo">ATELIER<span>.</span></a>
+
+        <p class="header-tagline">
+            Thoughtful essentials for everyday living.
+        </p>
+
+        <div class="header-bag">
+            Bag (0)
+        </div>
+
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
 
-    <h2 class="heading">Our Products</h2>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
 
-    <div class="product-container">
+        <p class="sidebar-heading">SHOP</p>
 
-        <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Red Sneakers">
-            <h3>Red Sneakers</h3>
-            <p>Comfortable everyday sneakers.</p>
-            <h4>$45.00</h4>
-            <button>Add to Cart</button>
+        <button class="sidebar-link active">All Products</button>
+
+        <div class="sidebar-divider"></div>
+
+        <p class="sidebar-heading">CATEGORIES</p>
+
+        <button class="sidebar-link">Accessories</button>
+        <button class="sidebar-link">Electronics</button>
+        <button class="sidebar-link">Home</button>
+        <button class="sidebar-link">Lifestyle</button>
+
+        <div class="sidebar-note">
+            <p>ATELIER</p>
+            <span>Less, but better.</span>
         </div>
 
-        <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500" alt="Handbag">
-            <h3>Stylish Handbag</h3>
-            <p>Elegant handbag for daily use.</p>
-            <h4>$60.00</h4>
-            <button>Add to Cart</button>
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- WELCOME SECTION -->
+        <div class="welcome-section">
+
+            <p class="eyebrow">THE EVERYDAY EDIT</p>
+
+            <h1>Find your everyday essentials.</h1>
+
+            <p class="welcome-description">
+                Thoughtfully selected products for modern living.
+            </p>
+
         </div>
 
-        <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Watch">
-            <h3>Classic Watch</h3>
-            <p>A beautiful watch for every occasion.</p>
-            <h4>$80.00</h4>
-            <button>Add to Cart</button>
+
+        <!-- PRODUCT SECTION -->
+        <div class="section-heading">
+            <h2>Explore our collection</h2>
         </div>
 
-        <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Headphones">
-            <h3>Wireless Headphones</h3>
-            <p>Enjoy high-quality sound.</p>
-            <h4>$55.00</h4>
-            <button>Add to Cart</button>
+
+        <!-- PRODUCT GRID -->
+        <div class="product-grid">
+
+
+            <!-- PRODUCT 1 -->
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <span class="product-tag">BESTSELLER</span>
+
+                    <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500"
+                         alt="Classic leather bag">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">ACCESSORIES</p>
+
+                    <h3>Classic Leather Bag</h3>
+
+                    <div class="rating">★★★★★ <span>(48)</span></div>
+
+                    <div class="price">Rs. 1,000</div>
+
+                    <button class="add-button">Add to Bag +</button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <span class="product-tag">POPULAR</span>
+
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"
+                         alt="Wireless headphones">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">ELECTRONICS</p>
+
+                    <h3>Studio Wireless Headphones</h3>
+
+                    <div class="rating">★★★★★ <span>(36)</span></div>
+
+                    <div class="price">Rs. 1,500</div>
+
+                    <button class="add-button">Add to Bag +</button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="https://images.unsplash.com/photo-1503602642458-232111445657?w=500"
+                         alt="Minimal lounge chair">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">HOME</p>
+
+                    <h3>Minimal Lounge Chair</h3>
+
+                    <div class="rating">★★★★★ <span>(24)</span></div>
+
+                    <div class="price">Rs. 1,000</div>
+
+                    <button class="add-button">Add to Bag +</button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4 -->
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500"
+                         alt="Minimal wrist watch">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">ACCESSORIES</p>
+
+                    <h3>Everyday Classic Watch</h3>
+
+                    <div class="rating">★★★★★ <span>(52)</span></div>
+
+                    <div class="price">Rs. 1,300</div>
+
+                    <button class="add-button">Add to Bag +</button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 5 -->
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <span class="product-tag">NEW</span>
+
+                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500"
+                         alt="Digital camera">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">LIFESTYLE</p>
+
+                    <h3>Vintage Film Camera</h3>
+
+                    <div class="rating">★★★★★ <span>(19)</span></div>
+
+                    <div class="price">Rs. 9,000</div>
+
+                    <button class="add-button">Add to Bag +</button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 6 -->
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500"
+                         alt="Sunglasses">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">ACCESSORIES</p>
+
+                    <h3>Everyday Sunglasses</h3>
+
+                    <div class="rating">★★★★★ <span>(31)</span></div>
+
+                    <div class="price">Rs. 500</div>
+
+                    <button class="add-button">Add to Bag +</button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 7 -->
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <span class="product-tag">NEW</span>
+
+                    <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500"
+                         alt="Water bottle">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">HOME</p>
+
+                    <h3>Minimal Water Bottle</h3>
+
+                    <div class="rating">★★★★★ <span>(27)</span></div>
+
+                    <div class="price">Rs. 1,400</div>
+
+                    <button class="add-button">Add to Bag +</button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 8 -->
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500"
+                         alt="Bluetooth speaker">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-category">ELECTRONICS</p>
+
+                    <h3>Portable Bluetooth Speaker</h3>
+
+                    <div class="rating">★★★★★ <span>(42)</span></div>
+
+                    <div class="price">Rs. 4,000</div>
+
+                    <button class="add-button">Add to Bag +</button>
+
+                </div>
+
+            </article>
+
+
         </div>
 
-        <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500" alt="Camera">
-            <h3>Digital Camera</h3>
-            <p>Capture your favorite moments.</p>
-            <h4>$120.00</h4>
-            <button>Add to Cart</button>
+    </main>
+
+
+    <!-- WIDGET A: STORE STATISTICS -->
+    <section class="widget-a">
+
+        <div class="widget-heading">
+
+            <p class="eyebrow">AT A GLANCE</p>
+
+            <h2>Store Overview</h2>
+
         </div>
 
-        <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500" alt="Fashion Outfit">
-            <h3>Fashion Outfit</h3>
-            <p>Upgrade your wardrobe with style.</p>
-            <h4>$70.00</h4>
-            <button>Add to Cart</button>
+        <div class="stats-container">
+
+            <div class="stat-item">
+                <span>08</span>
+                <p>Products</p>
+            </div>
+
+            <div class="stat-item">
+                <span>04</span>
+                <p>Categories</p>
+            </div>
+
         </div>
 
-    </div>
+    </section>
 
-    <footer>
-        <p>© 2026 Elegance Store | All Rights Reserved</p>
+
+    <!-- WIDGET B: RECENTLY ADDED -->
+    <section class="widget-b">
+
+        <div class="widget-heading">
+
+            <p class="eyebrow">LATEST ADDITIONS</p>
+
+            <h2>Recently Added</h2>
+
+        </div>
+
+        <div class="recent-products">
+
+            <div class="recent-item">
+
+                <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=200"
+                     alt="Water bottle">
+
+                <div>
+                    <h3>Minimal Water Bottle</h3>
+                    <p>Rs. 1,400 · Home</p>
+                </div>
+
+                <span class="new-label">NEW</span>
+
+            </div>
+
+            <div class="recent-item">
+
+                <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=200"
+                     alt="Bluetooth speaker">
+
+                <div>
+                    <h3>Portable Speaker</h3>
+                    <p>Rs. 4,000 · Electronics</p>
+                </div>
+
+                <span class="new-label">NEW</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>ATELIER © 2026 · ALL RIGHTS RESERVED</p>
+
+        <a href="mailto:hello@atelier.com">Contact</a>
+
     </footer>
+
+
+</div>
 
 </body>
 </html>
